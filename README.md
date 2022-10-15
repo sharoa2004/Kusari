@@ -2,7 +2,7 @@
 <table>
     <thead>
         <td id="테두리">
-<h1><a href="로그인전.html">쿠사리 세상</a></h1>
+<h1><a href="Untitled-18.html">쿠사리 세상</a></h1>
 <p>안녕하세요! 여기는 쿠사리 세상입니다!</p>
 <p>↓↓↓↓↓자 캐 소 개↓↓↓↓↓</p>
 <ol type="A" start="1">
