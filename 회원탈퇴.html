@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>샤로아 세상-회원탈퇴</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style-type: none;
+            float: left;
+        }
+        #header{
+            height: 180px;
+            background-color: #f6f5ef;
+            position: relative;
+        }
+        #logo{
+            top: 30px;
+            left: 20px;
+            
+            position: relative;
+            background-color: none;
+
+        }
+        #top{
+            top: 40px;
+            right: 200px;
+            position: absolute;
+        }
+        #top li{
+            width: 100px;
+            text-align: center;
+        }
+        #menu{
+            height: 40px;
+            padding-top: 15px;
+            background-color: white;
+            color:  black;
+            font-size: 20px;
+            
+            top: 50px;
+            position: relative;
+        }
+        #menu li{
+            width: 100px;
+            text-align: center;
+            margin: 0 50px;
+        }
+        #menu li:nth-child(2n){
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="회원탈퇴.html"><img src="logo.png" alt="" id="logo"></a>
+        <ul id="top">
+            <li><a href="로그인전.html"> 로그아웃</a></li>
+            <li><a href="회원탈퇴.html"> 회원탈퇴</a></li>
+            
+        </ul>
+        <ul id="menu">
+            <li><a href="http://www.ssglanders.com/main">야구</a></li>          <li>|</li>
+            <li><a href="https://www.incheonutd.com/main/index.php">축구</a></li>          <li>|</li>
+            <li><a href="http://www.sbirds.com/">농구</a></li>          <li>|</li>
+            <li><a href="http://www.kal-jumbos.co.kr/main/main.php">배구</a></li>          <li>|</li>
+            <li><a href="https://www.t1.gg/">E-스포츠</a></li>          <li>|</li>
+            <li><a href="https://www.tottenhamhotspur.com/kr/">해외축구</a></li>
+        </ul>
+    </div>
+    탈퇴하시겠어요?<br/>
+    <input type="button" onclick="location.href='로그인전.html'" value="네" onclick="alert('탈퇴되었어요.')">
+    <input type="button" onclick="location.href='로그인후.html'" value="아니오">
+</body>
+</html>

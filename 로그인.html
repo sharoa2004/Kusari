@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>샤로아 세상-로그인</title>
+<style>
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  li{
+      list-style-type: none;
+      float: left;
+  }
+  #header{
+      height: 180px;
+      background-color: #f6f5ef;
+      position: relative;
+  }
+  #logo{
+      top: 30px;
+      left: 20px;
+      
+      position: relative;
+      background-color: none;
+
+  }
+  #top{
+      top: 40px;
+      right: 200px;
+      position: absolute;
+  }
+  #top li{
+      width: 100px;
+      text-align: center;
+  }
+  #menu{
+      height: 40px;
+      padding-top: 15px;
+      background-color: white;
+      color:  black;
+      font-size: 20px;
+      
+      top: 50px;
+      position: relative;
+  }
+  #menu li{
+      width: 100px;
+      text-align: center;
+      margin: 0 50px;
+  }
+  #menu li:nth-child(2n){
+      width: 20px;
+  }
+</style>
+</head>
+
+<body>
+  <div id="header">
+    <a href="로그인창.html"><img src="logo.png" alt="" id="logo"></a>
+    <ul id="top">
+        <li><a href="로그인창.html"> 로그인</a></li>
+        <li><a href="회원가입.html"> 회원가입</a></li>
+        
+    </ul>
+    <ul id="menu">
+        <li><a href="http://www.ssglanders.com/main">야구</a></li>          <li>|</li>
+        <li><a href="https://www.incheonutd.com/main/index.php">축구</a></li>          <li>|</li>
+        <li><a href="http://www.sbirds.com/">농구</a></li>          <li>|</li>
+        <li><a href="http://www.kal-jumbos.co.kr/main/main.php">배구</a></li>          <li>|</li>
+        <li><a href="https://www.t1.gg/">E-스포츠</a></li>          <li>|</li>
+        <li><a href="https://www.tottenhamhotspur.com/kr/">해외축구</a></li>
+    </ul>
+</div>
+아이디 : <input type="text" placeholder="아이디를 입력하세요" id="id"><br/>
+
+비밀번호 : <input type="password" placeholder="비밀번호" id="password"><br/>
+
+<input type="button" onclick="login()" value="로그인">
+
+<script>
+function login() {
+  let id = document.getElementById("id").value;
+  let password = document.getElementById("password").value;
+  if (id.length == 0) {
+    alert("아이디를 입력하세요");
+  } else if (password.length == 0) {
+    alert("비밀번호를 입력하세요");
+  } else {
+    location.href='로그인후.html';
+  }
+}
+</script>
+</body>
+
+</html>
