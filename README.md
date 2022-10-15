@@ -1,2 +1,110 @@
-# Kusari
-Kusari
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>샤로아 세상-홈</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style-type: none;
+            float: left;
+        }
+        #header{
+            height: 180px;
+            background-color: #f6f5ef;
+            position: relative;
+        }
+        #logo{
+            top: 30px;
+            left: 20px;
+            
+            position: relative;
+            background-color: none;
+
+        }
+        #top{
+            top: 40px;
+            right: 200px;
+            position: absolute;
+        }
+        #top li{
+            width: 100px;
+            text-align: center;
+        }
+        #menu{
+            height: 40px;
+            padding-top: 15px;
+            background-color: white;
+            color:  black;
+            font-size: 20px;
+            
+            top: 50px;
+            position: relative;
+        }
+        #menu li{
+            width: 100px;
+            text-align: center;
+            margin: 0 50px;
+        }
+        #menu li:nth-child(2n){
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="로그인전.html"><img src="logo.png" alt="" id="logo"></a>
+        <ul id="top">
+            <li><a href="로그인창.html"> 로그인</a></li>
+            <li><a href="회원가입.html"> 회원가입</a></li>
+            
+        </ul>
+        <ul id="menu">
+            <li><a href="http://www.ssglanders.com/main">야구</a></li>          <li>|</li>
+            <li><a href="https://www.incheonutd.com/main/index.php">축구</a></li>          <li>|</li>
+            <li><a href="http://www.sbirds.com/">농구</a></li>          <li>|</li>
+            <li><a href="http://www.kal-jumbos.co.kr/main/main.php">배구</a></li>          <li>|</li>
+            <li><a href="https://www.t1.gg/">E-스포츠</a></li>          <li>|</li>
+            <li><a href="https://www.tottenhamhotspur.com/kr/">해외축구</a></li>
+        </ul>
+    </div>  
+    <div id="imgslide">
+        <div class="imgs">
+            <img src="images (1).jpg" alt="">
+            <img src="images (2).jpg" alt="">
+            <img src="images (3).jpg" alt="">
+            <div class="welcome">
+                <h1>환영합니다.</h1>
+                <h3>한국대학교 동문여러분</h3>
+            </div>
+        </div>
+    </div>
+    <div id="contents">
+        <div class="notice">
+            <h4>공지사항</h4>
+            <ul>
+                <li><a href="#">제17회 한국대학교 동문회장배 자선골프대회 안내문<span>2022-09-20</span></a></li>
+                <li><a href="#">개교 100주년 기념 야외 오페라 '토스카' 축제 초청 공연<span>2022-09-18</span></a></li>
+                <li><a href="#">동문회장 및 운영위원장 후보자 추천 및 신청<span>2022-09-17</span></a></li>
+                <li><a href="#">2022년도 제3차 이사회 및 장학위원회 개최일 변경<span>2022-09-15</span></a></li>
+                <li><a href="#">홈커밍데이 진행위원회(정회원) 선발결과 알림<span>2022-09-14</span></a></li>
+                <li><a href="#">9월 20일 2022년 한국대학교 동문회 CEO Forum<span>2022-09-13</span></a></li>
+            </ul>
+        </div>
+        <div class="gallery">
+            <h4>갤러리</h4>
+            <ul>
+                <li><a href=""><img src="gallery(1).jpg" alt=""></a></li>
+                <li><a href=""><img src="gallery(2).jpg" alt=""></a></li>
+                <li><a href=""><img src="gallery(3).jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </div>  
+</body>
+</html>
