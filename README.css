@@ -1,0 +1,18 @@
+@charset "utf-8";
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    #테두리 {
+        background-image: url("태극기 색채 버전.png");
+        color: gold;
+        font-weight: bold;
+    }
+    #테두리:hover {
+        background-image: url("무지개 gif.gif");
+        color: black;
+        font-weight: bold;
+    }
+    a {
+        color: black;
+    }
